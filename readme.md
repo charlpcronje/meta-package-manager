@@ -1,35 +1,9 @@
-<p align="center">
-  <a href="https://github.com/kdeldycke/meta-package-manager/">
-    <img src="https://raw.githubusercontent.com/kdeldycke/meta-package-manager/main/docs/assets/logo-banner.svg" alt="Meta Package Manager">
-  </a>
-</p>
+# Meta Package Manager
 
-<a href="https://xkcd.com/1654/" alt="XKCD #1654: Universal Install Script">
-<img align="right" width="20%" height="20%" src="http://imgs.xkcd.com/comics/universal_install_script.png"/>
-</a>
-
-[![Last release](https://img.shields.io/pypi/v/meta-package-manager.svg)](https://pypi.python.org/pypi/meta-package-manager)
-[![Python versions](https://img.shields.io/pypi/pyversions/meta-package-manager.svg)](https://pypi.python.org/pypi/meta-package-manager)
-[![Type checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
-[![Unittests status](https://github.com/kdeldycke/meta-package-manager/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/kdeldycke/meta-package-manager/actions/workflows/tests.yaml?query=branch%3Amain)
-[![Coverage status](https://codecov.io/gh/kdeldycke/meta-package-manager/branch/main/graph/badge.svg)](https://app.codecov.io/gh/kdeldycke/meta-package-manager)
-[![Documentation status](https://github.com/kdeldycke/meta-package-manager/actions/workflows/docs.yaml/badge.svg?branch=main)](https://github.com/kdeldycke/meta-package-manager/actions/workflows/docs.yaml?query=branch%3Amain)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6809571.svg)](https://doi.org/10.5281/zenodo.6809571)
-
-**What is Meta Package Manager?**
-
-- provides the `mpm` CLI, a wrapper around all package managers
-- `mpm` is like [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), but for package
-  managers instead of videos
-- `mpm` solves [XKCD #1654 - *Universal Install Script*](https://xkcd.com/1654/)
-
----
+- In this fork I plan to add packages to varius package managers and to port packages from one platform / labguage to the next. Excited for the challange
+- Below is the original features list
 
 ## Features
-
-<img align="right" width="30%" height="30%" src="https://raw.githubusercontent.com/kdeldycke/meta-package-manager/main/docs/assets/mpm-outdated-cli.png"/>
-
-<img align="right" width="30%" height="30%" src="https://raw.githubusercontent.com/kdeldycke/meta-package-manager/main/docs/assets/mpm-managers-cli.png"/>
 
 - Inventory and list all package managers available on the system.
 - Supports macOS, Linux and Windows.
